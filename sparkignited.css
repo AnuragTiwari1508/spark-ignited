@@ -1,0 +1,123 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #000;
+    color: #fff;
+    padding: 10px 20px;
+}
+.logo-img {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+
+
+.logo h1 {
+    margin: 0;
+    image-resolution: 20px ;
+    font-size: 24px;
+    color: #ad6cd6;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.cart {
+    display: flex;
+    align-items: center;
+}
+
+.notification-icon,
+.search-icon {
+    font-size: 24px;
+    margin-left: 10px;
+}
+
+section {
+   
+display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    height: 90vh;
+
+}
+
+
+#welcome, #about-us, #EV-brochure, #photos, #more {
+    background: url('bgg.jpg') no-repeat center center/cover;
+    margin: 0;
+    border: none;
+}
+
+.photos-img img {
+   height: 120px;
+}
+
+    
+  
+
+
+
+.welcome-text,
+ .EVbrochure-img,.about-text{
+    background-color: rgba(0, 0, 0, 0.595);
+    color:rgb(255, 255, 255);
+    text-shadow: rgb(14, 14, 15);
+    padding: 20px;
+    border-radius: 30px;
+    width: 50%;
+    max-width: 500px;
+}
+
+.photos-img{
+    background-color: rgba(0, 0, 0, 0.577);
+    flex-wrap: wrap;
+    justify-content: center;
+    color: #fff;
+    padding: 20px;
+    border-radius: 30px;
+    width: 90%;
+}
+
+
+.about-text {
+    height: 40%;
+}
+
+
+button {
+    background-color: #8250a4;
+    border: none;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+button:hover {
+    background-color: #8e4fa6;
+}

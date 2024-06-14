@@ -1,2 +1,2 @@
-# spark-ignited
-website page for spark ignited club
+# spark ignited
+ website for spark ignited
